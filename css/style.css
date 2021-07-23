@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class^="col-"]{
+    background-color: pink;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 0.8em;
+    height: 200px;
+    line-height: 200px;
+}
