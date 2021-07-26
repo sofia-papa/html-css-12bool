@@ -12,3 +12,12 @@
     height: 150px;
     line-height: 150px;
 }
+
+.nested{
+    height: 140px;
+    background-color:plum;
+}
+
+[class^="col"] > .row {
+    padding: 7px;
+}
